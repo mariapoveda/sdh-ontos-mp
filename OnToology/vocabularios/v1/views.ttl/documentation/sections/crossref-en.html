@@ -1,0 +1,308 @@
+<h2>4. Cross reference for [Ontology Name] classes, properties and dataproperties</h2>
+This section provides details for each class and property defined by [Ontology Name].
+<div id="classes">
+   <h2>Classes</h2>
+   <ul class="hlist">
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/views#Field"
+            title="http://www.smartdeveloperhub.org/vocabulary/views#Field">
+            <span>field</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/views#Result"
+            title="http://www.smartdeveloperhub.org/vocabulary/views#Result">
+            <span>result</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/views#ViewDefinition"
+            title="http://www.smartdeveloperhub.org/vocabulary/views#ViewDefinition">
+            <span>view definition</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/views#ViewEndpoint"
+            title="http://www.smartdeveloperhub.org/vocabulary/views#ViewEndpoint">
+            <span>view endpoint</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/views#ViewService"
+            title="http://www.smartdeveloperhub.org/vocabulary/views#ViewService">
+            <span>view service</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/views#ViewVocabulary"
+            title="http://www.smartdeveloperhub.org/vocabulary/views#ViewVocabulary">
+            <span>view vocabulary</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/views#Field">
+      <h3>field<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/views#Field</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/views#name">name</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#propertyPath">property path</span> 
+            <span class="logic">exactly</span> 1</dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/views#Result">
+      <h3>result<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/views#Result</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#Result">result</span>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#ValueType">value type</span>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#isSequence">is sequence</span> 
+            <span class="logic">value</span> true</dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#targetType">target type</span> 
+            <span class="logic">only</span> 
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#Map">map</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/views#ViewDefinition">
+      <h3>view definition<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/views#ViewDefinition</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#Operation">operation</span>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#hasSignature">has signature</span> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/views#field">field</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/views#Field"
+               title="http://www.smartdeveloperhub.org/vocabulary/views#Field">field</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#hasResult">has result</span> 
+            <span class="logic">only</span> 
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/views#Result"
+               title="http://www.smartdeveloperhub.org/vocabulary/views#Result">result</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/views#target">target</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Class">class</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/views#ViewEndpoint">
+      <h3>view endpoint<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/views#ViewEndpoint</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#Endpoint">endpoint</span>
+         </dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/views#supports"
+               title="http://www.smartdeveloperhub.org/vocabulary/views#supports">supports</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#http://www.smartdeveloperhub.org/vocabulary/views#ViewDefinition"
+               title="http://www.smartdeveloperhub.org/vocabulary/views#ViewDefinition">view definition</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/views#ViewService">
+      <h3>view service<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/views#ViewService</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#LinkedDataMicroService">linked data micro service</span>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/views#producesView">produces view</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">min</span> 1 <a href="#http://www.smartdeveloperhub.org/vocabulary/views#ViewDefinition"
+               title="http://www.smartdeveloperhub.org/vocabulary/views#ViewDefinition">view definition</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#providesDomain">provides domain</span> 
+            <span class="logic">value</span> 
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/views#ViewsDomain"
+               title="http://www.smartdeveloperhub.org/vocabulary/views#ViewsDomain">views domain</a>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#vocabulary">vocabulary</span> 
+            <span class="logic">some</span> 
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/views#ViewsVocabulary">views vocabulary</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#hasResourceType">has resource type</span> 
+            <span class="logic">value</span> 
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/views#ViewsEndpoint">views endpoint</span>
+         </dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/views#hasEndpoint"
+               title="http://www.smartdeveloperhub.org/vocabulary/views#hasEndpoint">has endpoint</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">min</span> 1 <a href="#http://www.smartdeveloperhub.org/vocabulary/views#ViewEndpoint"
+               title="http://www.smartdeveloperhub.org/vocabulary/views#ViewEndpoint">view endpoint</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/views#ViewVocabulary">
+      <h3>view vocabulary<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/views#ViewVocabulary</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#Vocabulary">vocabulary</span>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#implements">implements</span> 
+            <span class="logic">value</span> 
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/views#ViewDomain">view domain</span>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h2>Object Properties</h2>
+   <ul class="hlist">
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/views#hasEndpoint"
+            title="http://www.smartdeveloperhub.org/vocabulary/views#hasEndpoint">
+            <span>has endpoint</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/views#supports"
+            title="http://www.smartdeveloperhub.org/vocabulary/views#supports">
+            <span>supports</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/views#hasEndpoint">
+      <h3>has endpoint<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/views#hasEndpoint</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.smartdeveloperhub.org/vocabulary/platform#hasResource">has resource</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/views#supports">
+      <h3>supports<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/views#supports</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.smartdeveloperhub.org/vocabulary/platform#providesOperation">provides operation</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="namedindividuals">
+   <h2>Named Individuals</h2>
+   <ul class="hlist">
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/views#ViewsDomain"
+            title="http://www.smartdeveloperhub.org/vocabulary/views#ViewsDomain">
+            <span>views domain</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/views#ViewsDomain">
+      <h3>views domain<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/views#ViewsDomain</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#Domain">domain</span>
+         </dd>
+      </dl>
+   </div>
+</div>

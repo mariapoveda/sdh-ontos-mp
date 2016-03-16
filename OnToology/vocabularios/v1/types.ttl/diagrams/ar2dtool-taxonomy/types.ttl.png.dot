@@ -1,0 +1,8 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+	"types:UUID" -> "xsd:token" [ label = "rdfs:subClassOf" ];
+	"types:Hostname" -> "xsd:token" [ label = "rdfs:subClassOf" ];
+	"types:Port" -> "xsd:nonNegativeNumber" [ label = "rdfs:subClassOf" ];
+
+}

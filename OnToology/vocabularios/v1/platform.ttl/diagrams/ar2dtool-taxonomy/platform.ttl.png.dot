@@ -1,0 +1,22 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "platform:ValueType" "platform:Result" "platform:Parameter" "platform:MicroService" "platform:Harvester" "platform:LinkedDataMicroService" ; /*classes style*/
+	"dcterms:SizeOrDuration" -> "dcterms:MediaTypeOrExtent" [ label = "rdfs:subClassOf" ];
+	"dcterms:Jurisdiction" -> "dcterms:LocationPeriodOrJurisdiction" [ label = "rdfs:subClassOf" ];
+	"platform:Harvester" -> "platform:LinkedDataMicroService" [ label = "rdfs:subClassOf" ];
+	"platform:Result" -> "platform:ValueType" [ label = "rdfs:subClassOf" ];
+	"dcterms:PeriodOfTime" -> "dcterms:LocationPeriodOrJurisdiction" [ label = "rdfs:subClassOf" ];
+	"dcterms:FileFormat" -> "dcterms:MediaType" [ label = "rdfs:subClassOf" ];
+	"dctype:MovingImage" -> "dctype:Image" [ label = "rdfs:subClassOf" ];
+	"dcterms:MediaType" -> "dcterms:MediaTypeOrExtent" [ label = "rdfs:subClassOf" ];
+	"platform:Parameter" -> "platform:ValueType" [ label = "rdfs:subClassOf" ];
+	"platform:LinkedDataMicroService" -> "platform:MicroService" [ label = "rdfs:subClassOf" ];
+	"dcterms:LicenseDocument" -> "dcterms:RightsStatement" [ label = "rdfs:subClassOf" ];
+	"platform:MicroService" -> "dctype:Service" [ label = "rdfs:subClassOf" ];
+	"dctype:StillImage" -> "dctype:Image" [ label = "rdfs:subClassOf" ];
+	"dcterms:Location" -> "dcterms:LocationPeriodOrJurisdiction" [ label = "rdfs:subClassOf" ];
+	"dcterms:PhysicalMedium" -> "dcterms:MediaType" [ label = "rdfs:subClassOf" ];
+	"dcterms:AgentClass" -> "rdfs:Class" [ label = "rdfs:subClassOf" ];
+
+}

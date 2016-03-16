@@ -1,0 +1,294 @@
+<h2>4. Cross reference for [Ontology Name] classes, properties and dataproperties</h2>
+This section provides details for each class and property defined by [Ontology Name].
+<div id="classes">
+   <h2>Classes</h2>
+   <ul class="hlist">
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#MetricDefinition"
+            title="http://www.smartdeveloperhub.org/vocabulary/metrics#MetricDefinition">
+            <span>metric definition</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#MetricEndpoint"
+            title="http://www.smartdeveloperhub.org/vocabulary/metrics#MetricEndpoint">
+            <span>metric endpoint</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#MetricService"
+            title="http://www.smartdeveloperhub.org/vocabulary/metrics#MetricService">
+            <span>metric service</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#MetricVocabulary"
+            title="http://www.smartdeveloperhub.org/vocabulary/metrics#MetricVocabulary">
+            <span>metric vocabulary</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/metrics#MetricDefinition">
+      <h3>metric definition<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/metrics#MetricDefinition</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#Operation">operation</span>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#calculatesMetric"
+               title="http://www.smartdeveloperhub.org/vocabulary/metrics#calculatesMetric">calculates metric</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#supports"
+               title="http://www.smartdeveloperhub.org/vocabulary/metrics#supports">supports</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/metrics#MetricEndpoint">
+      <h3>metric endpoint<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/metrics#MetricEndpoint</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#Endpoint">endpoint</span>
+         </dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#supports"
+               title="http://www.smartdeveloperhub.org/vocabulary/metrics#supports">supports</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#supports"
+               title="http://www.smartdeveloperhub.org/vocabulary/metrics#supports">supports</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#hasEndpoint"
+               title="http://www.smartdeveloperhub.org/vocabulary/metrics#hasEndpoint">has endpoint</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is also defined as</dt>
+         <dd>named individual</dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/metrics#MetricService">
+      <h3>metric service<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/metrics#MetricService</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#LinkedDataMicroService">linked data micro service</span>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#providesDomain">provides domain</span> 
+            <span class="logic">value</span> 
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#MetricDomain"
+               title="http://www.smartdeveloperhub.org/vocabulary/metrics#MetricDomain">metric domain</a>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#vocabulary">vocabulary</span> 
+            <span class="logic">some</span> 
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#MetricVocabulary"
+               title="http://www.smartdeveloperhub.org/vocabulary/metrics#MetricVocabulary">metric vocabulary</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#hasResourceType">has resource type</span> 
+            <span class="logic">value</span> 
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#MetricEndpoint"
+               title="http://www.smartdeveloperhub.org/vocabulary/metrics#MetricEndpoint">metric endpoint</a>
+         </dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#calculatesMetric"
+               title="http://www.smartdeveloperhub.org/vocabulary/metrics#calculatesMetric">calculates metric</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">min</span> 1</dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#hasEndpoint"
+               title="http://www.smartdeveloperhub.org/vocabulary/metrics#hasEndpoint">has endpoint</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">min</span> 1</dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#calculatesMetric"
+               title="http://www.smartdeveloperhub.org/vocabulary/metrics#calculatesMetric">calculates metric</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#hasEndpoint"
+               title="http://www.smartdeveloperhub.org/vocabulary/metrics#hasEndpoint">has endpoint</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/metrics#MetricVocabulary">
+      <h3>metric vocabulary<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/metrics#MetricVocabulary</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#Vocabulary">vocabulary</span>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#implements">implements</span> 
+            <span class="logic">value</span> 
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#MetricDomain"
+               title="http://www.smartdeveloperhub.org/vocabulary/metrics#MetricDomain">metric domain</a>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h2>Object Properties</h2>
+   <ul class="hlist">
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#calculatesMetric"
+            title="http://www.smartdeveloperhub.org/vocabulary/metrics#calculatesMetric">
+            <span>calculates metric</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#hasEndpoint"
+            title="http://www.smartdeveloperhub.org/vocabulary/metrics#hasEndpoint">
+            <span>has endpoint</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#supports"
+            title="http://www.smartdeveloperhub.org/vocabulary/metrics#supports">
+            <span>supports</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/metrics#calculatesMetric">
+      <h3>calculates metric<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/metrics#calculatesMetric</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#MetricService"
+                  title="http://www.smartdeveloperhub.org/vocabulary/metrics#MetricService">metric service</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#MetricDefinition"
+                  title="http://www.smartdeveloperhub.org/vocabulary/metrics#MetricDefinition">metric definition</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/metrics#hasEndpoint">
+      <h3>has endpoint<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/metrics#hasEndpoint</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.smartdeveloperhub.org/vocabulary/platform#hasResource">has resource</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#MetricService"
+                  title="http://www.smartdeveloperhub.org/vocabulary/metrics#MetricService">metric service</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#MetricEndpoint"
+                  title="http://www.smartdeveloperhub.org/vocabulary/metrics#MetricEndpoint">metric endpoint</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/metrics#supports">
+      <h3>supports<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/metrics#supports</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.smartdeveloperhub.org/vocabulary/platform#providesOperation">provides operation</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#MetricEndpoint"
+                  title="http://www.smartdeveloperhub.org/vocabulary/metrics#MetricEndpoint">metric endpoint</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#MetricDefinition"
+                  title="http://www.smartdeveloperhub.org/vocabulary/metrics#MetricDefinition">metric definition</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="namedindividuals">
+   <h2>Named Individuals</h2>
+   <ul class="hlist">
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/metrics#MetricDomain"
+            title="http://www.smartdeveloperhub.org/vocabulary/metrics#MetricDomain">
+            <span>metric domain</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/metrics#MetricDomain">
+      <h3>metric domain<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/metrics#MetricDomain</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#Domain">domain</span>
+         </dd>
+      </dl>
+   </div>
+</div>

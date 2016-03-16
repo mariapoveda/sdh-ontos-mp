@@ -1,0 +1,13 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "curator:Request" "curator:Response" "curator:Message" "curator:EnrichmentResponse" "curator:Failure" "curator:EnrichmentRequest" "curator:Disconnect" "curator:Accepted" ; /*classes style*/
+	"curator:EnrichmentResponse" -> "curator:Response" [ label = "rdfs:subClassOf" ];
+	"curator:Response" -> "curator:Message" [ label = "rdfs:subClassOf" ];
+	"curator:EnrichmentRequest" -> "curator:Request" [ label = "rdfs:subClassOf" ];
+	"curator:Disconnect" -> "curator:Request" [ label = "rdfs:subClassOf" ];
+	"curator:Request" -> "curator:Message" [ label = "rdfs:subClassOf" ];
+	"curator:Accepted" -> "curator:Response" [ label = "rdfs:subClassOf" ];
+	"curator:Failure" -> "curator:Response" [ label = "rdfs:subClassOf" ];
+
+}

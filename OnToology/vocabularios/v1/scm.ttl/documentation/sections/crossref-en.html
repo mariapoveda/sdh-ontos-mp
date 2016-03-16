@@ -1,0 +1,1413 @@
+<h2>4. Cross reference for [Ontology Name] classes, properties and dataproperties</h2>
+This section provides details for each class and property defined by [Ontology Name].
+<div id="classes">
+   <h2>Classes</h2>
+   <ul class="hlist">
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Action"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#Action">
+            <span>action</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Branch"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#Branch">
+            <span>branch</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Commit"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#Commit">
+            <span>commit</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Committer"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#Committer">
+            <span>committer</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#FastForward"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#FastForward">
+            <span>fast forward</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Merge"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#Merge">
+            <span>merge</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Repository"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#Repository">
+            <span>repository</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#SCMHarvester"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#SCMHarvester">
+            <span>s c m harvester</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#SCMVocabulary"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#SCMVocabulary">
+            <span>s c m vocabulary</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#TrueMerge"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#TrueMerge">
+            <span>true merge</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#Action">
+      <h3>action<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#Action</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#performedBy"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#performedBy">performed by</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Committer"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#Committer">committer</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#createdOn"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#createdOn">created on</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Commit"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#Commit">commit</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Merge"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#Merge">merge</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#performedBy"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#performedBy">performed by</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#isTargetOf"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#isTargetOf">is target of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#Branch">
+      <h3>branch<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#Branch</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#isTargetOf"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#isTargetOf">is target of</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Action"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#Action">action</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://usefulinc.com/ns/doap#name">name</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#createdOn"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#createdOn">created on</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#hasCommit"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#hasCommit">has commit</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Commit"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#Commit">commit</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#isSourceOf"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#isSourceOf">is source of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#isTargetOf"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#isTargetOf">is target of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#defaultBranch"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#defaultBranch">default branch</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#hasBranch"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#hasBranch">has branch</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#Commit">
+      <h3>commit<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#Commit</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Action"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#Action">action</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#commitId">commit id</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#hasCommit"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#hasCommit">has commit</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#mergeCommit"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#mergeCommit">merge commit</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Merge"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#Merge">merge</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#Committer">
+      <h3>committer<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#Committer</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/Person">person</span>
+         </dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#lastCommit"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#lastCommit">last commit</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#committerId"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#committerId">committer id</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/name">name</span> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#external"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#external">external</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#mbox"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#mbox">mbox</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">some</span> 
+            <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/nick">nick</span> 
+            <span class="logic">some</span> 
+            <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+         </dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#firstCommit"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#firstCommit">first commit</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/img">img</span> 
+            <span class="logic">only</span> 
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/Image">image</span>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#correspondsTo">corresponds to</span> 
+            <span class="logic">max</span> 1 <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/organization#Person">person</span>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#owner"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#owner">owner</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#performedBy"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#performedBy">performed by</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#FastForward">
+      <h3>fast forward<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#FastForward</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Merge"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#Merge">merge</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#TrueMerge"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#TrueMerge">true merge</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#Merge">
+      <h3>merge<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#Merge</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Action"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#Action">action</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#hasCommit"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#hasCommit">has commit</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Commit"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#Commit">commit</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#FastForward"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#FastForward">fast forward</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#TrueMerge"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#TrueMerge">true merge</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#isSourceOf"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#isSourceOf">is source of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Commit"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#Commit">commit</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#Repository">
+      <h3>repository<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#Repository</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://usefulinc.com/ns/doap#Repository">repository</span>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://xmlns.com/foaf/0.1/depiction">depiction</span> 
+            <span class="logic">max</span> 1 <span class="dotted" title="http://xmlns.com/foaf/0.1/Image">image</span>
+         </dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#lastBuildStatus"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#lastBuildStatus">last build status</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <span class="dotted" title="http://usefulinc.com/ns/doap#name">name</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#isArchived"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#isArchived">is archived</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <span class="dotted" title="http://usefulinc.com/ns/doap#documenter">documenter</span> 
+            <span class="logic">some</span> 
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Committer"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#Committer">committer</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#defaultBranchName"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#defaultBranchName">default branch name</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#tags"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#tags">tags</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <span class="dotted" title="http://usefulinc.com/ns/doap#maintainer">maintainer</span> 
+            <span class="logic">some</span> 
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Committer"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#Committer">committer</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#defaultBranch"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#defaultBranch">default branch</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">max</span> 1 <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Branch"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#Branch">branch</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://usefulinc.com/ns/doap#description">description</span> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#firstCommit"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#firstCommit">first commit</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <span class="dotted" title="http://usefulinc.com/ns/doap#tester">tester</span> 
+            <span class="logic">some</span> 
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Committer"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#Committer">committer</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#lastBuildDate"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#lastBuildDate">last build date</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <span class="dotted" title="http://usefulinc.com/ns/doap#developer">developer</span> 
+            <span class="logic">some</span> 
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Committer"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#Committer">committer</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#codebase"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#codebase">codebase</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">max</span> 1 <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Resource">resource</span>
+         </dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#isRepositoryOf"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#isRepositoryOf">is repository of</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <span class="dotted" title="http://usefulinc.com/ns/doap#Project">project</span>
+         </dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#createdOn"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#createdOn">created on</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#owner"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#owner">owner</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Committer"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#Committer">committer</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#repositoryId"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#repositoryId">repository id</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#location"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#location">location</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#lastCommit"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#lastCommit">last commit</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#isPublic"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#isPublic">is public</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#codebase"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#codebase">codebase</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#defaultBranch"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#defaultBranch">default branch</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#defaultBranchName"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#defaultBranchName">default branch name</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#hasBranch"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#hasBranch">has branch</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#isRepositoryOf"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#isRepositoryOf">is repository of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#owner"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#owner">owner</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#hasRepository"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#hasRepository">has repository</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is also defined as</dt>
+         <dd>named individual</dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#SCMHarvester">
+      <h3>s c m harvester<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#SCMHarvester</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#Harvester">harvester</span>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#providesDomain">provides domain</span> 
+            <span class="logic">value</span> 
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#SCMDomain"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#SCMDomain">s c m domain</a>
+         </dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#hasRepository"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#hasRepository">has repository</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Repository"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#Repository">repository</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#hasResourceType">has resource type</span> 
+            <span class="logic">value</span> 
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Repository"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#Repository">repository</a>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#vocabulary">vocabulary</span> 
+            <span class="logic">some</span> 
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#SCMVocabulary"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#SCMVocabulary">s c m vocabulary</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#hasRepository"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#hasRepository">has repository</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#SCMVocabulary">
+      <h3>s c m vocabulary<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#SCMVocabulary</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#Vocabulary">vocabulary</span>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#implements">implements</span> 
+            <span class="logic">value</span> 
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#SCMDomain"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#SCMDomain">s c m domain</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#TrueMerge">
+      <h3>true merge<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#TrueMerge</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Merge"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#Merge">merge</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#mergeCommit"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#mergeCommit">merge commit</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Commit"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#Commit">commit</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#mergeCommit"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#mergeCommit">merge commit</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#FastForward"
+               title="http://www.smartdeveloperhub.org/vocabulary/scm#FastForward">fast forward</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h2>Object Properties</h2>
+   <ul class="hlist">
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#codebase"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#codebase">
+            <span>codebase</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#defaultBranch"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#defaultBranch">
+            <span>default branch</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#hasBranch"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#hasBranch">
+            <span>has branch</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#hasCommit"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#hasCommit">
+            <span>has commit</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#hasRepository"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#hasRepository">
+            <span>has repository</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#isRepositoryOf"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#isRepositoryOf">
+            <span>is repository of</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#isSourceOf"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#isSourceOf">
+            <span>is source of</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#isTargetOf"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#isTargetOf">
+            <span>is target of</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#mergeCommit"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#mergeCommit">
+            <span>merge commit</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#owner"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#owner">
+            <span>owner</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#performedBy"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#performedBy">
+            <span>performed by</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#codebase">
+      <h3>codebase<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#codebase</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Repository"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#Repository">repository</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2000/01/rdf-schema#Resource">resource</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#defaultBranch">
+      <h3>default branch<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#defaultBranch</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Repository"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#Repository">repository</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Branch"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#Branch">branch</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#hasBranch">
+      <h3>has branch<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#hasBranch</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Repository"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#Repository">repository</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Branch"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#Branch">branch</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#hasCommit">
+      <h3>has commit<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#hasCommit</p>
+      <div class="description">
+         <dl>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Commit"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#Commit">commit</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#hasRepository">
+      <h3>has repository<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#hasRepository</p>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> inverse functional</p>
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.smartdeveloperhub.org/vocabulary/platform#hasResource">has resource</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#SCMHarvester"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#SCMHarvester">s c m harvester</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Repository"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#Repository">repository</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#isRepositoryOf">
+      <h3>is repository of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#isRepositoryOf</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Repository"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#Repository">repository</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.smartdeveloperhub.org/vocabulary/scm#Project">project</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <span class="dotted" title="http://usefulinc.com/ns/doap#repository">repository</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#isSourceOf">
+      <h3>is source of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#isSourceOf</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Branch"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#Branch">branch</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Merge"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#Merge">merge</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#isTargetOf">
+      <h3>is target of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#isTargetOf</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Branch"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#Branch">branch</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Action"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#Action">action</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#mergeCommit">
+      <h3>merge commit<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#mergeCommit</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#TrueMerge"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#TrueMerge">true merge</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Commit"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#Commit">commit</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#owner">
+      <h3>owner<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#owner</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Repository"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#Repository">repository</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Committer"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#Committer">committer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#performedBy">
+      <h3>performed by<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#performedBy</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Action"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#Action">action</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Committer"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#Committer">committer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="dataproperties">
+   <h2>Data Properties</h2>
+   <ul class="hlist">
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#committerId"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#committerId">
+            <span>committer id</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#createdOn"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#createdOn">
+            <span>created on</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#date"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#date">
+            <span>date</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#defaultBranchName"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#defaultBranchName">
+            <span>default branch name</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#external"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#external">
+            <span>external</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#firstCommit"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#firstCommit">
+            <span>first commit</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#id"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#id">
+            <span>id</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#isArchived"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#isArchived">
+            <span>is archived</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#isPublic"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#isPublic">
+            <span>is public</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#lastBuildDate"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#lastBuildDate">
+            <span>last build date</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#lastBuildStatus"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#lastBuildStatus">
+            <span>last build status</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#lastCommit"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#lastCommit">
+            <span>last commit</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#location"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#location">
+            <span>location</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#mbox"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#mbox">
+            <span>mbox</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#projectId"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#projectId">
+            <span>project id</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#repositoryId"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#repositoryId">
+            <span>repository id</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#signUpDate"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#signUpDate">
+            <span>sign up date</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#tags"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#tags">
+            <span>tags</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#committerId">
+      <h3>committer id<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#committerId</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#id"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#id">id</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#createdOn">
+      <h3>created on<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#createdOn</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#date"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#date">date</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#date">
+      <h3>date<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#date</p>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#createdOn"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#createdOn">created on</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#firstCommit"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#firstCommit">first commit</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#lastBuildDate"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#lastBuildDate">last build date</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#lastCommit"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#lastCommit">last commit</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#signUpDate"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#signUpDate">sign up date</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#dateTime">date time</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#defaultBranchName">
+      <h3>default branch name<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#defaultBranchName</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#Repository"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#Repository">repository</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#external">
+      <h3>external<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#external</p>
+      <div class="description">
+         <dl>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#boolean">boolean</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#firstCommit">
+      <h3>first commit<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#firstCommit</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#date"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#date">date</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#id">
+      <h3>id<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#id</p>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#committerId"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#committerId">committer id</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#projectId"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#projectId">project id</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#repositoryId"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#repositoryId">repository id</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#isArchived">
+      <h3>is archived<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#isArchived</p>
+      <div class="description">
+         <dl>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#boolean">boolean</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#isPublic">
+      <h3>is public<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#isPublic</p>
+      <div class="description">
+         <dl>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#boolean">boolean</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#lastBuildDate">
+      <h3>last build date<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#lastBuildDate</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#date"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#date">date</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#lastBuildStatus">
+      <h3>last build status<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#lastBuildStatus</p>
+      <div class="description">
+         <dl>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#lastCommit">
+      <h3>last commit<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#lastCommit</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#date"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#date">date</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#location">
+      <h3>location<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#location</p>
+      <div class="description">
+         <dl>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#anyURI">any u r i</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#mbox">
+      <h3>mbox<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#mbox</p>
+      <div class="description">
+         <dl>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#projectId">
+      <h3>project id<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#projectId</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#id"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#id">id</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#repositoryId">
+      <h3>repository id<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#repositoryId</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#id"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#id">id</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#signUpDate">
+      <h3>sign up date<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#signUpDate</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#date"
+                  title="http://www.smartdeveloperhub.org/vocabulary/scm#date">date</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#tags">
+      <h3>tags<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#tags</p>
+      <div class="description">
+         <dl>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="namedindividuals">
+   <h2>Named Individuals</h2>
+   <ul class="hlist">
+      <li>
+         <a href="#http://www.smartdeveloperhub.org/vocabulary/scm#SCMDomain"
+            title="http://www.smartdeveloperhub.org/vocabulary/scm#SCMDomain">
+            <span>s c m domain</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://www.smartdeveloperhub.org/vocabulary/scm#SCMDomain">
+      <h3>s c m domain<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.smartdeveloperhub.org/vocabulary/scm#SCMDomain</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted"
+                  title="http://www.smartdeveloperhub.org/vocabulary/platform#Domain">domain</span>
+         </dd>
+      </dl>
+   </div>
+</div>
