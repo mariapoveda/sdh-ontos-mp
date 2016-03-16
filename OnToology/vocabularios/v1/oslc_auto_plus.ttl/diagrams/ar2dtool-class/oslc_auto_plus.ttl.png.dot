@@ -1,0 +1,24 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "oslc_auto:AutomationResult" "oslc_auto:AutomationRequest" "oslc_auto:AutomationPlan" ; /*classes style*/
+	"http://www.smartdeveloperhub.org/vocabulary/oslc_auto_plus" -> "http://www.smartdeveloperhub.org/vocabulary/v1/oslc_core_plus" [ label = "owl:imports" ];
+	"http://www.smartdeveloperhub.org/vocabulary/oslc_auto_plus" -> "http://www.smartdeveloperhub.org/vocabulary/v1/oslc_auto_plus" [ label = "owl:versionIRI" ];
+	"http://www.smartdeveloperhub.org/vocabulary/oslc_core_plus" -> "http://www.smartdeveloperhub.org/vocabulary/v1/oslc_core_plus" [ label = "owl:versionIRI" ];
+	"NULL" -> "oslc_auto:producedByAutomationRequest" [ label = "owl:onProperty" ];
+	"NULL" -> "oslc_auto:verdict" [ label = "owl:onProperty" ];
+	"NULL" -> "oslc_auto:reportsOnAutomationPlan" [ label = "owl:onProperty" ];
+	"NULL" -> "oslc_auto:AutomationPlan" [ label = "owl:onClass" ];
+	"NULL" -> "dcterms:title" [ label = "owl:onProperty" ];
+	"NULL" -> "oslc_auto:executesAutomationPlan" [ label = "owl:onProperty" ];
+	"NULL" -> "oslc_auto:state" [ label = "owl:onProperty" ];
+	"NULL" -> "dcterms:created" [ label = "owl:onProperty" ];
+	"NULL" -> "dcterms:description" [ label = "owl:onProperty" ];
+	"NULL" -> "dcterms:identifier" [ label = "owl:onProperty" ];
+	"NULL" -> "oslc_auto:AutomationRequest" [ label = "owl:onClass" ];
+	"oslc_auto:AutomationResult" -> "owl:Thing" [ label = "oslc_auto:reportsOnAutomationPlan" ];
+	"oslc_auto:AutomationResult" -> "owl:Thing" [ label = "oslc_auto:verdict" ];
+	"oslc_auto:AutomationRequest" -> "owl:Thing" [ label = "oslc_auto:executesAutomationPlan" ];
+	"oslc_auto:AutomationResult" -> "owl:Thing" [ label = "oslc_auto:producedByAutomationRequest" ];
+
+}

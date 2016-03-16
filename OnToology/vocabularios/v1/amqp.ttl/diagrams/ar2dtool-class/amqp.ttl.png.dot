@@ -1,0 +1,17 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "amqp:Broker" ; /*classes style*/
+	"http://www.smartdeveloperhub.org/vocabulary/amqp" -> "http://www.smartdeveloperhub.org/vocabulary/v1/types" [ label = "owl:imports" ];
+	"http://www.smartdeveloperhub.org/vocabulary/amqp" -> "http://www.smartdeveloperhub.org/vocabulary/v1/amqp" [ label = "owl:versionIRI" ];
+	"NULL" -> "amqp:host" [ label = "owl:onProperty" ];
+	"NULL" -> "amqp:virtualHost" [ label = "owl:onProperty" ];
+	"NULL" -> "amqp:port" [ label = "owl:onProperty" ];
+	"owl:Thing" -> "amqp:Path" [ label = "amqp:virtualHost" ];
+	"owl:Thing" -> "amqp:RoutingKey" [ label = "amqp:routingKey" ];
+	"owl:Thing" -> "amqp:Broker" [ label = "amqp:broker" ];
+	"owl:Thing" -> "amqp:Name" [ label = "amqp:exchangeName" ];
+	"owl:Thing" -> "types:Port" [ label = "amqp:port" ];
+	"owl:Thing" -> "types:Hostname" [ label = "amqp:host" ];
+
+}

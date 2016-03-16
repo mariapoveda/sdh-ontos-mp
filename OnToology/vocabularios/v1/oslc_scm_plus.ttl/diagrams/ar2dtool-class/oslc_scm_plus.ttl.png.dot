@@ -1,0 +1,6 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	"http://www.smartdeveloperhub.org/vocabulary/oslc_scm_plus" -> "http://www.smartdeveloperhub.org/vocabulary/v1/oslc_scm_plus" [ label = "owl:versionIRI" ];
+
+}

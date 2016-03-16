@@ -1,0 +1,9 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+	"amqp:Name" -> "amqp:ShortString" [ label = "rdfs:subClassOf" ];
+	"amqp:Path" -> "amqp:ShortString" [ label = "rdfs:subClassOf" ];
+	"amqp:RoutingKey" -> "amqp:ShortString" [ label = "rdfs:subClassOf" ];
+	"amqp:ShortString" -> "xsd:token" [ label = "rdfs:subClassOf" ];
+
+}

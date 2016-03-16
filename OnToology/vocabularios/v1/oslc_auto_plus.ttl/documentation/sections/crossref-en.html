@@ -1,0 +1,253 @@
+<h2>4. Cross reference for [Ontology Name] classes, properties and dataproperties</h2>
+This section provides details for each class and property defined by [Ontology Name].
+<div id="classes">
+   <h2>Classes</h2>
+   <ul class="hlist">
+      <li>
+         <a href="#http://open-services.net/ns/auto#AutomationPlan" title="http://open-services.net/ns/auto#AutomationPlan">
+            <span>automation plan</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://open-services.net/ns/auto#AutomationRequest"
+            title="http://open-services.net/ns/auto#AutomationRequest">
+            <span>automation request</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://open-services.net/ns/auto#AutomationResult"
+            title="http://open-services.net/ns/auto#AutomationResult">
+            <span>automation result</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://open-services.net/ns/auto#AutomationPlan">
+      <h3>automation plan<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://open-services.net/ns/auto#AutomationPlan</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://purl.org/dc/terms/description">description</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <span class="dotted" title="http://purl.org/dc/terms/created">created</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <span class="dotted" title="http://purl.org/dc/terms/title">title</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <span class="dotted" title="http://purl.org/dc/terms/identifier">identifier</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://open-services.net/ns/auto#AutomationRequest">
+      <h3>automation request<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://open-services.net/ns/auto#AutomationRequest</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://purl.org/dc/terms/created">created</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <span class="dotted" title="http://open-services.net/ns/auto#state">state</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <span class="dotted" title="http://purl.org/dc/terms/title">title</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <a href="#http://open-services.net/ns/auto#executesAutomationPlan"
+               title="http://open-services.net/ns/auto#executesAutomationPlan">executes automation plan</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#http://open-services.net/ns/auto#AutomationPlan" title="http://open-services.net/ns/auto#AutomationPlan">automation plan</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://purl.org/dc/terms/description">description</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <span class="dotted" title="http://purl.org/dc/terms/identifier">identifier</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://open-services.net/ns/auto#executesAutomationPlan"
+               title="http://open-services.net/ns/auto#executesAutomationPlan">executes automation plan</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://open-services.net/ns/auto#AutomationResult">
+      <h3>automation result<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://open-services.net/ns/auto#AutomationResult</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://purl.org/dc/terms/identifier">identifier</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <a href="#http://open-services.net/ns/auto#reportsOnAutomationPlan"
+               title="http://open-services.net/ns/auto#reportsOnAutomationPlan">reports on automation plan</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#http://open-services.net/ns/auto#AutomationPlan" title="http://open-services.net/ns/auto#AutomationPlan">automation plan</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://open-services.net/ns/auto#state">state</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <span class="dotted" title="http://purl.org/dc/terms/title">title</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <a href="#http://open-services.net/ns/auto#producedByAutomationRequest"
+               title="http://open-services.net/ns/auto#producedByAutomationRequest">produced by automation request</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">max</span> 1 <a href="#http://open-services.net/ns/auto#AutomationRequest"
+               title="http://open-services.net/ns/auto#AutomationRequest">automation request</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#http://open-services.net/ns/auto#verdict" title="http://open-services.net/ns/auto#verdict">verdict</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <span class="dotted" title="http://purl.org/dc/terms/description">description</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <span class="dotted" title="http://purl.org/dc/terms/created">created</span>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://open-services.net/ns/auto#producedByAutomationRequest"
+               title="http://open-services.net/ns/auto#producedByAutomationRequest">produced by automation request</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://open-services.net/ns/auto#reportsOnAutomationPlan"
+               title="http://open-services.net/ns/auto#reportsOnAutomationPlan">reports on automation plan</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://open-services.net/ns/auto#verdict" title="http://open-services.net/ns/auto#verdict">verdict</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h2>Object Properties</h2>
+   <ul class="hlist">
+      <li>
+         <a href="#http://open-services.net/ns/auto#executesAutomationPlan"
+            title="http://open-services.net/ns/auto#executesAutomationPlan">
+            <span>executes automation plan</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://open-services.net/ns/auto#producedByAutomationRequest"
+            title="http://open-services.net/ns/auto#producedByAutomationRequest">
+            <span>produced by automation request</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://open-services.net/ns/auto#reportsOnAutomationPlan"
+            title="http://open-services.net/ns/auto#reportsOnAutomationPlan">
+            <span>reports on automation plan</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://open-services.net/ns/auto#verdict" title="http://open-services.net/ns/auto#verdict">
+            <span>verdict</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://open-services.net/ns/auto#executesAutomationPlan">
+      <h3>executes automation plan<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://open-services.net/ns/auto#executesAutomationPlan</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://open-services.net/ns/auto#AutomationRequest"
+                  title="http://open-services.net/ns/auto#AutomationRequest">automation request</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://open-services.net/ns/auto#producedByAutomationRequest">
+      <h3>produced by automation request<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://open-services.net/ns/auto#producedByAutomationRequest</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://open-services.net/ns/auto#AutomationResult"
+                  title="http://open-services.net/ns/auto#AutomationResult">automation result</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://open-services.net/ns/auto#reportsOnAutomationPlan">
+      <h3>reports on automation plan<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://open-services.net/ns/auto#reportsOnAutomationPlan</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://open-services.net/ns/auto#AutomationResult"
+                  title="http://open-services.net/ns/auto#AutomationResult">automation result</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://open-services.net/ns/auto#verdict">
+      <h3>verdict<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://open-services.net/ns/auto#verdict</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://open-services.net/ns/auto#AutomationResult"
+                  title="http://open-services.net/ns/auto#AutomationResult">automation result</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div>
