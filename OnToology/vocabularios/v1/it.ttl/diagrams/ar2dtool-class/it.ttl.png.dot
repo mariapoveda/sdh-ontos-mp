@@ -1,0 +1,27 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "http://www.smartdeveloperhub.org/vocabulary/it#Person" "http://www.smartdeveloperhub.org/vocabulary/it#Project" "http://www.smartdeveloperhub.org/vocabulary/it#Bug" "http://www.smartdeveloperhub.org/vocabulary/it#Version" "http://www.smartdeveloperhub.org/vocabulary/it#Component" "http://www.smartdeveloperhub.org/vocabulary/it#Task" "http://www.smartdeveloperhub.org/vocabulary/it#Commit" "http://www.smartdeveloperhub.org/vocabulary/it#Issue" "http://www.smartdeveloperhub.org/vocabulary/it#Improvement" ; /*classes style*/
+	"NULL" -> "http://www.smartdeveloperhub.org/vocabulary/it#Issue" [ label = "owl:annotatedSource" ];
+	"NULL" -> "http://www.smartdeveloperhub.org/vocabulary/it#Improvement" [ label = "owl:annotatedSource" ];
+	"NULL" -> "http://www.smartdeveloperhub.org/vocabulary/it#Task" [ label = "owl:annotatedSource" ];
+	"NULL" -> "http://www.smartdeveloperhub.org/vocabulary/it#isComposedOfIssue" [ label = "owl:onProperty" ];
+	"NULL" -> "http://www.smartdeveloperhub.org/vocabulary/it#isReportedBy" [ label = "owl:onProperty" ];
+	"NULL" -> "http://www.smartdeveloperhub.org/vocabulary/it#Component" [ label = "owl:annotatedSource" ];
+	"NULL" -> "rdfs:comment" [ label = "owl:annotatedProperty" ];
+	"NULL" -> "http://www.smartdeveloperhub.org/vocabulary/it#Bug" [ label = "owl:annotatedSource" ];
+	"http://www.smartdeveloperhub.org/vocabulary/it" -> "http://www.smartdeveloperhub.org/vocabulary/v1/it" [ label = "owl:versionIRI" ];
+	"http://www.smartdeveloperhub.org/vocabulary/it#Issue" -> "http://www.smartdeveloperhub.org/vocabulary/it#Issue" [ label = "http://www.smartdeveloperhub.org/vocabulary/it#isComposedOfIssue" ];
+	"http://www.smartdeveloperhub.org/vocabulary/it#Issue" -> "http://www.smartdeveloperhub.org/vocabulary/it#Project" [ label = "http://www.smartdeveloperhub.org/vocabulary/it#isIssueOfProject" ];
+	"http://www.smartdeveloperhub.org/vocabulary/it#Issue" -> "http://www.smartdeveloperhub.org/vocabulary/it#Person" [ label = "http://www.smartdeveloperhub.org/vocabulary/it#isReportedBy" ];
+	"http://www.smartdeveloperhub.org/vocabulary/it#Project" -> "http://www.smartdeveloperhub.org/vocabulary/it#Component" [ label = "http://www.smartdeveloperhub.org/vocabulary/it#hasComponent" ];
+	"http://www.smartdeveloperhub.org/vocabulary/it#Issue" -> "http://www.smartdeveloperhub.org/vocabulary/it#Person" [ label = "http://www.smartdeveloperhub.org/vocabulary/it#isAssignedTo" ];
+	"http://www.smartdeveloperhub.org/vocabulary/it#Issue" -> "rdfs:Literal" [ label = "http://www.smartdeveloperhub.org/vocabulary/it#issueCustomTag" ];
+	"http://www.smartdeveloperhub.org/vocabulary/it#Issue" -> "xsd:int" [ label = "http://www.smartdeveloperhub.org/vocabulary/it#storyPoints" ];
+	"http://www.smartdeveloperhub.org/vocabulary/it#Issue" -> "http://www.smartdeveloperhub.org/vocabulary/it#Component" [ label = "http://www.smartdeveloperhub.org/vocabulary/it#isIssueAssociatedToComponent" ];
+	"http://www.smartdeveloperhub.org/vocabulary/it#Project" -> "http://www.smartdeveloperhub.org/vocabulary/it#Version" [ label = "http://www.smartdeveloperhub.org/vocabulary/it#hasVersion" ];
+	"http://www.smartdeveloperhub.org/vocabulary/it#Issue" -> "http://www.smartdeveloperhub.org/vocabulary/it#Version" [ label = "http://www.smartdeveloperhub.org/vocabulary/it#affectsVersion" ];
+	"http://www.smartdeveloperhub.org/vocabulary/it#Project" -> "http://www.smartdeveloperhub.org/vocabulary/it#Issue" [ label = "http://www.smartdeveloperhub.org/vocabulary/it#hasProjectIssue" ];
+	"http://www.smartdeveloperhub.org/vocabulary/it#Issue" -> "http://www.smartdeveloperhub.org/vocabulary/it#Commit" [ label = "http://www.smartdeveloperhub.org/vocabulary/it#isIssueRelatedToCommit" ];
+
+}
