@@ -1,0 +1,12 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "http://www.smartdeveloperhub.org/vocabulary/it#Bug" "http://www.smartdeveloperhub.org/vocabulary/it#DevelopmentTask" "http://www.smartdeveloperhub.org/vocabulary/it#ITHarvester" "http://www.smartdeveloperhub.org/vocabulary/it#Task" "http://www.smartdeveloperhub.org/vocabulary/it#CompositeIssue" "platform:Harvester" "http://www.smartdeveloperhub.org/vocabulary/it#Issue" "http://www.smartdeveloperhub.org/vocabulary/it#Improvement" ; /*classes style*/
+	"http://www.smartdeveloperhub.org/vocabulary/it#ITHarvester" -> "platform:Harvester" [ label = "rdfs:subClassOf" ];
+	"http://www.smartdeveloperhub.org/vocabulary/it#CompositeIssue" -> "http://www.smartdeveloperhub.org/vocabulary/it#Issue" [ label = "rdfs:subClassOf" ];
+	"http://www.smartdeveloperhub.org/vocabulary/it#Improvement" -> "http://www.smartdeveloperhub.org/vocabulary/it#Issue" [ label = "rdfs:subClassOf" ];
+	"http://www.smartdeveloperhub.org/vocabulary/it#Bug" -> "http://www.smartdeveloperhub.org/vocabulary/it#Issue" [ label = "rdfs:subClassOf" ];
+	"http://www.smartdeveloperhub.org/vocabulary/it#Task" -> "http://www.smartdeveloperhub.org/vocabulary/it#Issue" [ label = "rdfs:subClassOf" ];
+	"http://www.smartdeveloperhub.org/vocabulary/it#DevelopmentTask" -> "http://www.smartdeveloperhub.org/vocabulary/it#Task" [ label = "rdfs:subClassOf" ];
+
+}
